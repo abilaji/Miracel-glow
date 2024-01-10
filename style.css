@@ -1,0 +1,282 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFFEFA;
+}
+.navbar {
+  position: sticky;
+  z-index: 2;
+}
+.navbar-brand {
+  font-family: 'prata', serif;
+}
+nav ul a:hover {
+  content: "";
+  display: block;
+  font-weight: 500;
+  color: #FF5602 !important;
+  border-bottom: 3px solid;
+  padding-bottom: 5px;
+  margin-bottom: 6px;
+  border-radius: 1.5px;
+}
+.btn {
+  background-color: #010F29 !important;
+  color: aliceblue !important;
+  border: none !important;
+  padding: 8px 24px 8px 24px !important;
+  font-weight: 600 !important;
+}
+.btn-navbar {
+  border-radius: 20px !important;
+  text-transform: capitalize;
+
+}
+.btn-banner {
+  margin-top: 20px;
+  border-radius: 20px !important;
+  text-transform: capitalize;
+}
+
+.banner-info {
+  position: relative;
+  background-image: url('/assets/banner.png');
+  background-size: cover;
+  width: 100%;
+  height: 612px;
+  margin-top: -70px;
+}
+.row .tittle-banner {
+  margin-top: 170px;
+}
+.row .img-banner{
+  margin-top: 102px;
+}
+/* .row .img-banner img{
+  width: 107vh;
+} */
+
+.tittle-banner h1 {
+  font-family: 'prata', serif;
+  font-size: 54px;
+  text-transform: capitalize;
+}
+.tittle-banner p {
+  font-size: 20px;
+}
+.about-us {
+  margin-top: 120px;
+}
+.about-us .warp-content {
+  text-align: center;
+}
+.about-us .value-info {
+  margin-top: 52px;
+}
+.navbar-scrolled {
+  background-color: #ffffff;
+}
+.tittle-about {
+  content: "";
+  display: block;
+  color: #FF5602;
+  border-bottom: 3px solid;
+  padding-bottom: 5px;
+  margin-bottom: 6px;
+  border-radius: 1.5px;
+}
+.about-us .value-info .row h1 {
+  font-weight: bold;
+  color: #74CF49;
+}
+.container .tittle {
+  text-transform: capitalize;
+  margin-bottom: 32px;
+}
+
+.tittle h5{
+  color: #FF5602;
+  
+}
+
+.about-us .value-info .row p {
+  text-transform: capitalize;
+}
+.about-comp {
+  margin-top: 140px;
+  text-align: justify;
+}
+.about-comp h3 {
+  text-transform: capitalize;
+  margin-bottom: px;
+}
+.product-warp {
+  background-color: #e4fbfb;
+  padding: 24px;
+  margin-top: 100px;
+}
+
+.card-product .container .tittle {
+  text-align: center;
+}
+
+.card h5 {
+  text-transform: capitalize;
+}
+.card p {
+  color: #333333;
+}
+
+.sub-tittle {
+  font-family: 'prata', serif;
+  font-size: 52px;
+}
+.warp-periority {
+  margin-top: -34px;
+}
+.row .tittle-periority {
+  margin-top: 150px;
+}
+.content .input-group {
+  border-radius: 8px;
+  color: #4e4e4e;
+  border: none !important;
+}
+.content .input-group span {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+footer {
+  background-color: #010F29;
+  padding: 16px;
+  color: #FFFEFA;
+}
+
+.ctn-tittle {
+  margin-top: 52px !important;
+  font-family: 'prata', serif;
+}
+
+.tittle .btn-footer {
+  background-color: #FF5602 !important;
+  color: #ffffff;
+  text-transform: capitalize;
+  height: 42px;
+  border-radius: 50px;
+}
+.foo-content h5 {
+  text-transform: capitalize;
+}
+
+.ch-tittle {
+  text-align: justify;
+  color: #CDDBF5;
+}
+.city {
+  margin-top: -10px;
+}
+.foo-city {
+  color: #CDDBF5;
+}
+.icon-city {
+  margin-left: -8px;
+  margin-top: 4px;
+  width: 36px;
+  height: 36px;
+}
+
+.foo-produk ul {
+  list-style: none;
+}
+.foo-produk li {
+  margin-left: -36px ;
+}
+.foo-produk ul {
+  color: #CDDBF5;
+}
+
+.contact-warp ul {
+  margin-top: 10px;
+  color: #CDDBF5;
+  margin-left: -32px;
+}
+.icon-kontak {
+  margin-left: -8px;
+  margin-top: 4px;
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+/* Responsive for mobile*/
+@media (max-width: 576px){
+  .navbar {
+    background-color: #ffffff;
+  }
+
+  .d-flex .btn{
+    display: none !important;
+  }
+  .row .tittle-banner {
+    margin-top: 92px;
+    width: 100%;
+    text-align: center;
+  }
+  .tittle-banner h1 {
+    font-family: 'prata', serif;
+    font-size: 34px;
+    text-transform: capitalize;
+  }
+  .tittle-banner p {
+    font-size: 18px;
+  }
+  .img-banner{
+    display: none;
+  }
+  .banner-info {
+    height: 370px;
+  }
+
+  .about-us {
+    margin-top: 72px;
+  }
+
+  .about-us .about-warp {
+    margin-top: -64px;
+    text-align: justify;
+  }
+
+  .btn-about {
+    width: 100%;
+  }
+
+  .row .tittle-periority {
+    width: 100%;
+  }
+
+  .sub-tittle {
+    font-size: 28px;
+  }
+  .tittle-periority .content {
+    margin-top: -10px !important;
+  }
+  .tittle-periority {
+    margin-top: 92px !important;
+  }
+  h5.tittle-label {
+    margin-top: 6px;
+    font-size: 15px;
+
+  }
+
+  .ctn-tittle {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .foo-produk {
+    margin-top: 20px !important;
+  }
+
+  
