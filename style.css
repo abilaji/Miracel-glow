@@ -86,7 +86,7 @@ nav ul a:hover {
 }
 .about-us .value-info .row h1 {
   font-weight: bold;
-  color: #74CF49;
+  color: #FF5602;
 }
 .container .tittle {
   text-transform: capitalize;
@@ -209,18 +209,27 @@ footer {
 }
 
 /* Responsive for mobile*/
-@media (max-width: 576px){
+@media (max-width: 480px){
+  body {
+    overflow-x: hidden;
+  }
   .navbar {
+    width: 100%;
     background-color: #ffffff;
   }
 
   .d-flex .btn{
     display: none !important;
   }
+
+  .banner-info {
+    width: 90%;
+  }
   .row .tittle-banner {
     margin-top: 170px;
     width: 100%;
     text-align: center;
+    background-color: antiquewhite;
   }
   .tittle-banner h1 {
     font-family: 'prata', serif;
@@ -237,11 +246,14 @@ footer {
     height: 432px;
   }
   .tentang-kami {
+    width: 90%;
     text-align: center;
     margin-bottom: 10px;
   }
   .about-us {
+    width: 90%;
     margin-top: 72px;
+    background-color: antiquewhite;
   }
 
   .about-us .about-warp {
@@ -250,7 +262,7 @@ footer {
   }
 
   .btn-about {
-    width: 100%;
+    width: 90%;
   }
 
   .row .tittle-periority {
@@ -269,9 +281,15 @@ footer {
   h5.tittle-label {
     margin-top: 6px;
     font-size: 15px;
-
   }
 
+  .content .input-group {
+    width: 90%;
+  }
+  .product-warp {
+    background-color: antiquewhite;
+    width: 90%;
+  }
   .ctn-tittle {
     margin-top: 16px;
     text-align: center;
@@ -282,4 +300,8 @@ footer {
     margin-top: 20px !important;
   }
 
-  
+  footer {
+    width: 90%;
+  }
+
+}
